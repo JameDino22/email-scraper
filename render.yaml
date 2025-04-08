@@ -3,4 +3,4 @@ services:
     name: my-flask-app
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn aap:app
+    startCommand: gunicorn app:app
