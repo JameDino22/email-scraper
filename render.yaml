@@ -1,0 +1,7 @@
+
+services:
+  - type: web
+    name: email-finder
+    env: python
+    buildCommand: "pip install -r requirements.txt && playwright install"
+    startCommand: "gunicorn extract_emails:app"
