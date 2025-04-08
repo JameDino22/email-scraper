@@ -1,2 +1,2 @@
-web: gunicorn main:app
+startCommand: gunicorn main:app
 
