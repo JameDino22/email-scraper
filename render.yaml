@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-service-name
+    name: my-flask-app
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn aap:app
